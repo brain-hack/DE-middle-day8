@@ -28,7 +28,7 @@ def create_index(es,name):
             print("to create index is successful : index name = '{}'".format(response["index"]))
 
 def index_data(es,index,data,doc_type):
-    es.index(index=index, doc_type="hs_item", body=data)
+    es.index(index=index, doc_type=doc_type, body=data)
 
 # METHOD #1: OpenCV, NumPy, and urllib
 def url_to_image(url):
