@@ -1,4 +1,4 @@
-FROM demiddleday3_jupyter:latest
+FROM geoffyoon/basejupyter:latest
 
 MAINTAINER yoon, koock <deep-learning@kakao.com>
 
